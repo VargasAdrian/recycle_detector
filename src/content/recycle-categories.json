@@ -1,0 +1,32 @@
+[
+    {
+        "category":"Plástico - Lata - Brik",
+        "metadata": [
+            "Plástico",
+            "Lata",
+            "Brik"
+        ]
+    },
+    {
+        "category":"Vidrio",
+        "metadata": [
+            "Cristal"
+        ]
+    },
+    {
+        "category":"Papel - Cartón",
+        "metadata": [
+            "Plástico",
+            "Lata",
+            "Brik"
+        ]
+    },
+    {
+        "category":"Electrónica",
+        "metadata": [
+            "Ordenador",
+            "Móvil",
+            "Altavoz"
+        ]
+    }
+]
