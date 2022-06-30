@@ -10,9 +10,13 @@ const IndexPage = () => {
       <title>Recycle detector</title>
       <Menu />
       <div>
-        <p>Es importante saber cómo reciclar correctamente los distintos materiales.</p>
+        <p>¿Qué quieres reciclar?</p>
       </div>
-      <CategoryList categories={categories} />
+      <CategoryList 
+        categories={categories} 
+        onItemSelected={(category:string) => {
+          console.log(category);
+        }}/>
 
       
     </main>

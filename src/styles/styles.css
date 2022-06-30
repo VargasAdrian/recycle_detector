@@ -5,6 +5,8 @@
     --font-small: 1rem;
     --font-medium: 1.5rem;
     --font-large: 2.5rem;
+    --font-color-gray: #424747;
+
 }
 
 html {
@@ -21,7 +23,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 30%);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     justify-content: center;
 }
@@ -67,20 +69,24 @@ body {
 }
 
 .category-title {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--font-color-gray);
     text-align: center;
     font-size: var(--font-large);
+    color: var(--font-color-gray);
 }
 
 .category-list {
     font-size: var(--font-medium);
+    color: var(--font-color-gray);
     list-style: none;
     padding: 0;
 }
 
 .category-list li:hover {
-    background-color: lightgray;
+    /* font-size: larger; */
     cursor: pointer;
+    transition: color 0.3s;
+    color: black;
 }
 
 .flex-container {

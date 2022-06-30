@@ -1,6 +1,6 @@
 [
     {
-        "category":"Plástico - Lata - Brik",
+        "category":"Plástico",
         "metadata": [
             "Plástico",
             "Lata",
@@ -14,11 +14,10 @@
         ]
     },
     {
-        "category":"Papel - Cartón",
+        "category":"Papel",
         "metadata": [
-            "Plástico",
-            "Lata",
-            "Brik"
+            "Papel",
+            "Cartón"
         ]
     },
     {
