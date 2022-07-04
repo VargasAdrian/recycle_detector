@@ -6,7 +6,7 @@ export default (props: DataProps) => {
     return (
         <div className='grid-container'>
             {props.categories.map((c, i) =>
-                <div key={c + i.toString()}>
+                <div key={c + i.toString()} className="card">
                     <div className='category-title'>{c.category}</div>
                     <ul className='category-list'>
                         {c.metadata.map((m, i) =>
