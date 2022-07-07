@@ -23,7 +23,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
     gap: 1rem;
     justify-content: center;
 }
@@ -47,6 +47,16 @@ body {
     cursor: pointer;
 }
 
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.link {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -55,6 +65,7 @@ body {
     background-color: var(--primary-color);
     padding: 0.5rem 1rem;
     margin-bottom: 2rem;
+    color: white;
 }
 
 .menu .container {
